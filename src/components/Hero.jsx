@@ -24,6 +24,7 @@ export default function Hero() {
                      alt="COMPLIANT-ISO-30107-3 LEVEL 1"
                      width={142}
                      height={62}
+                     loading="lazy"
                      className="md:scale-100  scale-90"
                   />
 
@@ -32,6 +33,7 @@ export default function Hero() {
                      alt="COMPLIANT-ISO-30107-3 LEVEL 1"
                      width={142}
                      height={62}
+                     loading="lazy"
                      className="md:scale-100  scale-90"
                   />
                </div>
@@ -50,6 +52,7 @@ export default function Hero() {
                   src="/images/Hero.png"
                   alt="SpoofSense - Seamless Facial Liveness Detection in <1 Second"
                   className=""
+                  priority={true}
                   width={696}
                   height={403}
                />
