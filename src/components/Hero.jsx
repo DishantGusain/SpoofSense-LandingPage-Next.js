@@ -1,10 +1,9 @@
 import Image from "next/image";
-import ButtonPrimary from "./shared/buttons/ButtonPrimary";
 import ButtonWithIcon from "./shared/buttons/ButtonWithIcon";
 
 export default function Hero() {
    return (
-      <div className="md:py-[100px] py-[30px]">
+      <div className="md:my-[100px] my-[30px]">
          <div className="flex items-start  md:flex-row flex-col-reverse">
             <div className="md:w-[45%] space-y-5">
                <h1 className="md:text-[20px] text-[18px] text-[#5FA2F7]">
@@ -19,13 +18,13 @@ export default function Hero() {
                   sophisticated spoofing attempts.
                </p>
 
-               <div className="flex items-center space-x-3 ">
+               <div className="flex items-center md:space-x-3 ">
                   <Image
                      src="/images/COMPLIANT-ISO-30107-3-LEVEL1.png"
                      alt="COMPLIANT-ISO-30107-3 LEVEL 1"
                      width={142}
                      height={62}
-                     className=""
+                     className="md:scale-100  scale-90"
                   />
 
                   <Image
@@ -33,7 +32,7 @@ export default function Hero() {
                      alt="COMPLIANT-ISO-30107-3 LEVEL 1"
                      width={142}
                      height={62}
-                     className=""
+                     className="md:scale-100  scale-90"
                   />
                </div>
 

@@ -10,7 +10,7 @@ export default function Home() {
       <main className="relative w-full min-h-screen max-w-screen-screenPrimary   md:px-[104px] px-[12px]  overflow-clip">
         <Hero />
 
-        <div className="space-y-7">
+        <div className="md:space-y-7 space-y-3 my-[50px] md:my-0">
           <div className="text-[24px] text-center font-medium">Trusted By</div>
           <div className="flex items-center justify-between ">
             <Image src="/images/MyMobiForce.png" alt="MyMobiForce" className=" md:block hidden" width={236} height={35} />
