@@ -10,6 +10,17 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        BgPrimary: "#111112",
+        BgSecondary: "#231E1E",
+        transparent: 'transparent',
+        current: 'currentColor',
+      },
+      screens: {
+        screenPrimary: "1426px",
+      },
+      fontFamily: {
+        DM_Sans:['DM Sans', 'sans-serif'],
+        Sora: ['Sora', 'sans-serif'],
       },
     },
   },
