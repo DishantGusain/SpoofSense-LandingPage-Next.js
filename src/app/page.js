@@ -1,6 +1,7 @@
 
 import ContactForm from "@/components/ContactForm";
 import Hero from "@/components/Hero";
+import HowSpoofSenseWorks from "@/components/HowSpoofSenseWorks";
 import Image from 'next/image';
 
 export default function Home() {
@@ -25,9 +26,11 @@ export default function Home() {
 
         <ContactForm />
 
+        <HowSpoofSenseWorks/>
 
 
-        <div className="h-screen "></div>
+
+        <div className="h-screen flex items-center justify-center"> Work in progress</div>
       </main>
     </div>
   );
