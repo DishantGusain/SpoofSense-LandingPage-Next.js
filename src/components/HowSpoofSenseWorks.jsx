@@ -14,9 +14,9 @@ export default function HowSpoofSenseWorks() {
                      <Image
                         src="/images/SpoofSenseWorks1.png"
                         alt="How SpoofSense works - Capture"
-                        className=""
-                        width={389}
-                        height={404}
+                        className="w-96  rounded-[40px]"
+                        width={1300}
+                        height={1350}
                      />
                      <Image
                         src="/images/Capture.png"
@@ -38,10 +38,10 @@ export default function HowSpoofSenseWorks() {
                   <div className="relative">
                      <Image
                         src="/images/SpoofSenseWorks2.png"
-                        alt="How SpoofSense works - Capture"
-                        className=""
-                        width={389}
-                        height={404}
+                        alt="How SpoofSense works - Analyse"
+                        className="w-96  rounded-[40px]"
+                        width={1300}
+                        height={1354}
                      />
                      <Image
                         src="/images/Analyse.png"
@@ -62,10 +62,10 @@ export default function HowSpoofSenseWorks() {
                   <div className="relative">
                      <Image
                         src="/images/SpoofSenseWorks3.png"
-                        alt="How SpoofSense works - Capture"
-                        className=""
-                        width={389}
-                        height={404}
+                        alt="How SpoofSense works - Authenticate"
+                        className="w-96  rounded-[40px]"
+                        width={1300}
+                        height={1354}
                      />
                      <Image
                         src="/images/Authenticate.png"

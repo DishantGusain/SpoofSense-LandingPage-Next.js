@@ -14,12 +14,12 @@ export default function Home() {
         <div className="md:space-y-7 space-y-3 my-[50px] md:my-0">
           <div className="text-[24px] text-center font-medium">Trusted By</div>
           <div className="flex items-center justify-between ">
-            <Image src="/images/MyMobiForce.png" alt="MyMobiForce" className=" md:block hidden" width={236} height={35} loading="lazy" />
-            <Image src="/images/OnGrid.png" alt="OnGrid" className="" width={110} height={42} loading="lazy" />
-            <Image src="/images/Bureau.png" alt="Bureau" className="" width={134} height={27} loading="lazy" />
-            <Image src="/images/dojah.png" alt="dojah" className="" width={80} height={35} loading="lazy" />
-            <Image src="/images/signzy.png" alt="signzy" className=" md:block hidden" width={127} height={37} loading="lazy" />
-            <Image src="/images/central.png" alt="central" className=" md:block hidden" width={123} height={35} loading="lazy" />
+            <Image src="/images/MyMobiForce.png" alt="MyMobiForce" className=" md:block hidden w-56" width={506} height={77} loading="lazy" />
+            <Image src="/images/OnGrid.png" alt="OnGrid" className="w-28" width={217} height={84} loading="lazy" />
+            <Image src="/images/Bureau.png" alt="Bureau" className="w-32" width={134} height={27} loading="lazy" />
+            <Image src="/images/dojah.png" alt="dojah" className="w-20" width={80} height={35} loading="lazy" />
+            <Image src="/images/signzy.png" alt="signzy" className=" md:block hidden w-32" width={127} height={37} loading="lazy" />
+            <Image src="/images/central.png" alt="central" className=" md:block hidden w-32" width={123} height={35} loading="lazy" />
           </div>
         </div>
 

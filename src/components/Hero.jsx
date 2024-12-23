@@ -53,8 +53,8 @@ export default function Hero() {
                   alt="SpoofSense - Seamless Facial Liveness Detection in <1 Second"
                   className=""
                   priority={true}
-                  width={696}
-                  height={403}
+                  width={1392}
+                  height={806}
                />
             </div>
          </div>
