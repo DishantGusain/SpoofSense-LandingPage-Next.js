@@ -3,7 +3,8 @@ import ButtonWithIcon from "./shared/buttons/ButtonWithIcon";
 
 export default function Hero() {
    return (
-      <div className="md:my-[100px] my-[30px]">
+      <div className="md:my-[100px] my-[30px] container-padding ">
+          {/* md:px-[104px] px-[12px]  */}
          <div className="flex items-start  md:flex-row flex-col-reverse">
             <div className="md:w-[45%] space-y-5">
                <h1 className="md:text-[20px] text-[18px] text-[#5FA2F7]">
