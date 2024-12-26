@@ -2,23 +2,23 @@ import Image from "next/image";
 
 export default function ContactForm() {
    return (
-      <div className=" container-padding ">
-         <div className="bg-[#67D164] md:my-[100px] my-[30px] md:px-[185px] px-[16px]  md:py-[72px]  py-[40px]  md:rounded-[40px] rounded-[20px] flex items-center justify-between  md:flex-row flex-col">
-            <div className="md:w-[55%]  space-y-3 text-white">
-               <h1 className="font-normal md:text-[48px] text-[34px] md:leading-[48px] leading-[34px] tracking-tighter">
+      <section className="  container-padding max-w-screen-screenPrimary  overflow-clip  mx-auto">
+         <div className="bg-[#67D164]  lg:my-[100px] my-[30px] lg:px-[185px] px-[16px]  lg:py-[72px]  py-[40px]  lg:rounded-[40px] rounded-[20px] flex items-center justify-between  lg:flex-row flex-col">
+            <div className="lg:w-[55%]  space-y-3 text-white">
+               <h1 className="font-normal lg:text-[48px] text-[34px] lg:leading-[48px] leading-[34px] tracking-tighter">
                   The Leading Facial Liveness Detection Solution
                </h1>
 
-               <p className="font-normal md:text-[18px] text-[16px] tracking-tighter">
+               <p className="font-normal lg:text-[18px] text-[16px] tracking-tighter">
                   SpoofSense enhances digital security with advanced face
                   presentation detection detection, offering a multi-layered
                   defense against spoofing attacks of all types.
                </p>
             </div>
 
-            <div className="md:w-[45%] flex mt-4 md:mt-0 justify-end">
-               <div className="md:w-[280px]  space-y-2 md:text-[16px] text-[14px]">
-                  <div className="md:text-[20px] text-[18px] font-medium">
+            <div className="lg:w-[45%] flex mt-4 lg:mt-0 justify-end">
+               <div className="lg:w-[280px]  space-y-2 lg:text-[16px] text-[14px]">
+                  <div className="lg:text-[20px] text-[18px] font-medium">
                      Learn More
                   </div>
                   <input
@@ -66,6 +66,6 @@ export default function ContactForm() {
                </div>
             </div>
          </div>
-      </div>
+      </section>
    );
 }
