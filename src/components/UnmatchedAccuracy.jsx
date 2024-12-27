@@ -13,7 +13,7 @@ export default function UnmatchedAccuracy() {
                <div className="absolute z-10 w-full h-full flex items-center lg:pb-[6%] pb-[3%] lg:px-5 px-2">
                   <div className=" z-10 w-full lg:h-[310px] h-40 md:h-72 lg:rounded-[40px] rounded-3xl border-2"></div>
                </div>
-               <div className=" lg:rounded-[40px] rounded-3xl bg-red-400 lg:w-1/4">
+               <div className=" lg:rounded-[40px] rounded-3xl  lg:w-1/4">
                   <Image
                      src="/images/dziana-hasanbekava.png"
                      alt="How SpoofSense works - Capture"
