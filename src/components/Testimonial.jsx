@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function Testimonial() {
    return (
-      <section className="container-padding max-w-screen-screenPrimary  overflow-clip  mx-auto my-44">
-         <div className="relative space-y-44">
+      <section className="container-padding max-w-screen-screenPrimary  overflow-clip  mx-auto  lg:my-[100px] my-[40px] ">
+         <div className="relative md:space-y-44 space-y-10">
             <h1 className="lg:text-[54px] text-[46px] italic lg:leading-[54px] leading-[46px] tracking-tighter font-medium text-center">
                We found SpoofSense Face to have
                <br className="lg:block hidden" /> 0% FPR in our evaluation

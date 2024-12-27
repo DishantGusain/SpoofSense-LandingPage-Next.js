@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function HowSpoofSenseWorks() {
    return (
-      <section className="lg:my-[100px] my-[30px] space-y-8 container-padding max-w-screen-screenPrimary  overflow-clip  mx-auto">
+      <section className="lg:my-[100px] my-[30px] space-y-8 container-padding max-w-screen-screenPrimary  overflow-clip  mx-auto w-full">
          <h1 className="lg:text-[48px] text-[40px] leading-[40px] lg:leading-[48px] font-medium text-center">
             How SpoofSense works
          </h1>
-
+<div className="w-full flex justify-center">
          <div className="lg:flex lg:space-y-0 space-y-4 items-start justify-between  lg:w-full w-96 lg:space-x-2 ">
             <div className="bg-[#F5F6FA] p-2 rounded-[40px] lg:w-1/3">
                <div className="">
@@ -81,6 +81,7 @@ export default function HowSpoofSenseWorks() {
                   fraud prevention.
                </p>
             </div>
+         </div>
          </div>
       </section>
    );

@@ -1,7 +1,11 @@
 
+import Companies from "@/components/Companies";
 import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
+import FooterNavlinks from "@/components/FooterNavlinks";
 import Hero from "@/components/Hero";
 import HowSpoofSenseWorks from "@/components/HowSpoofSenseWorks";
+import ReadyToFightIdentityFraud from "@/components/ReadyToFightIdentityFraud";
 import SpoofingAttackCoverage from "@/components/SpoofingAttackCoverage";
 import Testimonial from "@/components/Testimonial";
 import TrustedBy from "@/components/TrustedBy";
@@ -22,15 +26,19 @@ export default function Home() {
       <SpoofingAttackCoverage />
       <UnmatchedAccuracy />
 
-<Testimonial/>
+      <Testimonial />
 
 
 
 
+      <ReadyToFightIdentityFraud />
+
+      <Companies />
 
 
+      <FooterNavlinks />
+      <Footer />
 
-      <div className="h-screen flex items-center justify-center"> Work in progress</div>
     </div>
   );
 }
