@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import FooterNavlinks from "@/components/FooterNavlinks";
 import Hero from "@/components/Hero";
 import HowSpoofSenseWorks from "@/components/HowSpoofSenseWorks";
+import IntegrationDeployment from "@/components/IntegrationDeployment";
 import ReadyToFightIdentityFraud from "@/components/ReadyToFightIdentityFraud";
 import SpoofingAttackCoverage from "@/components/SpoofingAttackCoverage";
 import Testimonial from "@/components/Testimonial";
@@ -29,7 +30,7 @@ export default function Home() {
       <Testimonial />
 
 
-
+<IntegrationDeployment/>
 
       <ReadyToFightIdentityFraud />
 

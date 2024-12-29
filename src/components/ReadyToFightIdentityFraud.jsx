@@ -3,7 +3,7 @@ import ButtonWithIcon from "./shared/buttons/ButtonWithIcon";
 
 export default function ReadyToFightIdentityFraud() {
    return (
-      <section className="container-padding max-w-screen-screenPrimary  overflow-clip  mx-auto w-full   ">
+      <section className="container-padding max-w-screen-screenPrimary  overflow-clip  mx-auto w-full    lg:mt-[100px] mt-[30px]">
          <div className="md:flex items-start justify-between bg-[#F5F6FA] pt-7  px-1 md:px-0 md:pl-[74px] overflow-clip rounded-[40px] space-y-8 md:space-y-0">
             <div className="">
                <h1 className="md:text-[64px] text-[40px] leading-[40px] md:leading-[66px] ">
