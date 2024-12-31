@@ -17,6 +17,7 @@ export default {
       },
       screens: {
         screenPrimary: "1426px",
+        "1360": "1360px",
       },
       fontFamily: {
         DM_Sans:['DM Sans', 'sans-serif'],
