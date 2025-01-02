@@ -111,7 +111,7 @@ export default function ContactForm() {
                         Submit
                         <Image
                            src="/images/arrowIconGreen.png"
-                           alt=""
+                           alt="arrowIconGreen"
                            className="ml-3 group-hover:scale-[1.15] group-hover:rotate-[270deg] duration-700"
                            width={24}
                            height={24}
