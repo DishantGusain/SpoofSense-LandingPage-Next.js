@@ -43,6 +43,8 @@ export default function Hero() {
                <div className="pt-3">
                   <ButtonWithIcon
                      Title="Book Demo"
+                     href="https://cal.com/kartikeya-bhardwaj-spoofsense/30min"
+                      target="_blank"
                      alt=""
                      className=""
                   />
