@@ -28,7 +28,8 @@ export default function Navbar() {
                </div>
                <div className="  ">
                   <ButtonPrimary
-                     href="/"
+                     href="https://cal.com/kartikeya-bhardwaj-spoofsense/30min"
+                      target="_blank"
                      Title="Book Demo"
                      className=" "
                   />

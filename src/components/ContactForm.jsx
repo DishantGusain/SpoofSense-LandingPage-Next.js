@@ -106,6 +106,8 @@ export default function ContactForm() {
                   <div className="w-full flex justify-center">
                      <button
                         type="submit"
+                     href="https://cal.com/kartikeya-bhardwaj-spoofsense/30min"
+                      target="_blank"
                         className="group inline-flex items-center py-[10px] px-[14px] font-semibold sm:text-base text-sm cursor-pointer  rounded-[40px] text-[#67D164] bg-black transition duration-300 no-underline"
                      >
                         Submit
