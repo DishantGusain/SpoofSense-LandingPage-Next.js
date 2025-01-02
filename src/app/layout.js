@@ -1,6 +1,7 @@
 import {  DM_Sans as DMSans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Script from 'next/script'
 
 const dmSans  = DMSans({
   weight: ['300','400', '500', '600', '700'], // You can specify the weights you need
@@ -22,6 +23,13 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         {children}
+        
+      <Script 
+          async
+          type="text/javascript"
+           src="https://scripts.simpleanalyticscdn.com/latest.js"
+           data-website-id=""
+            />
       </body>
     </html>
   );
